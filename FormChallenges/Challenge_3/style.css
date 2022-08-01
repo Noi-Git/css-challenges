@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginbackground {
+  width: 85vw;
+  height: 50px;
+  transform: skew(20deg);
+  background: #2b72cf;
+  position: relative;
+  top: 230px;
+  left: 20px;
+  transform: rotate(-15deg);
+  transform: skew(-10deg, -15deg);
+  z-index: -2;
+}
+
+.login-root {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  height: 100vh;
+  width: 50vw;
+  /* opacity: 0.3; */
+}
+
+.box-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  opacity: 1;
+  width: 50vw;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  color: #1b64d1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.reset-pass {
+  color: #1b64d1;
+}
+
+span.padding-bottom--15 {
+  display: block;
+  padding-top: 20px;
+  font-size: 1.4rem;
+}
+
+.formbg {
+  padding: 0 10px;
+  height: 380px;
+  width: 300px;
+  line-height: 2.5rem;
+  box-shadow: 1px 1px 20px #918e8e;
+}
+
+.grid--50-50 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 0.9rem;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+label,
+[for="email"] {
+  display: block;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  border: 0.8px solid #818283;
+  border-radius: 5px;
+}
+
+[type="email"] {
+  padding: 7px 3px;
+  text-align: left;
+}
+
+[type="password"] {
+  padding: 7px 3px;
+}
+
+[type="submit"] {
+  padding: 8px 0;
+  margin-bottom: 10px;
+  background-color: #2b72cf;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.field-checkbox {
+  margin: 10px 0 15px 0;
+}
+
+label,
+[type="checkbox"] {
+  display: flex;
+  flex-direction: row;
+}
+
+[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px 0 0;
+}
+
+.field > a.ssolink {
+  display: block;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #1b64d1;
+}
+
+.footer-link {
+  margin-top: 30px;
+  line-height: 3rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+span > a[href=""] {
+  color: #1b64d1;
+  padding-left: 5px;
+}
+
+.listing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

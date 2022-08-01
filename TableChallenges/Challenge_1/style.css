@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  font-family: "poppins", "verdana";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1625054790108-6a5fb0c174af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bmF0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: #d1cdcd;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  /* background-color: rgb(241, 188, 188); */
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+
+h3 {
+  font-size: 0.9rem;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 0.8rem;
+  line-height: 3;
+}
+
+input {
+  background-color: #ffffff;
+  border: 1px solid #686666;
+  border-radius: 10px;
+}
+
+[type="submit"] {
+  width: 300px;
+  background-color: #43abb3;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 40px;
+}

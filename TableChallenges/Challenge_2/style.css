@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+* {
+  font-family: "Indie Flower";
+
+  box-sizing: border-box;
+}
+
+#myTable {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 370px;
+}
+
+td,
+th {
+  background: #65d89f;
+}
+
+table {
+  border-spacing: 0.2rem;
+}
+
+td {
+  padding: 1rem;
+}
+
+tr:nth-child(3) td:nth-child(4) {
+  background: #c9a6da;
+}
+
+tr:nth-child(2) {
+  color: #e60a0a;
+}
+
+tr th:nth-child(1) {
+  color: #e60a0a;
+}
